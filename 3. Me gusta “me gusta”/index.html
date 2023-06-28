@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Me gusta</title>
+</head>
+<body>
+    <div id="bar">
+        <h1 class="barTitle">Network</h1>
+    </div>
+    <h1 class="pageTitle">Your Feed</h1>
+    <div class="mainPage">
+        <div class="userAvatar">
+            <div class="picContainer">
+                <img class="userPic" src="img/user-circle.png" alt="User profile picture">
+            </div>
+            <a class="link" href="url">Add an avatar</a>
+            <h2 class="userName">James Doe</h2>
+        </div>
+        <div class="messages">
+            <div id="neil" class="likesContainer">
+                <div class="row1">
+                    <h1 class="user">Neil F</h1>
+                    <h2 class="likes"><span class="likesNumber">9</span> like(s)</h2>
+                    <div class="likeBtnContainer">
+                        <button type="button" class="likeBtn" onclick="addLike('neil')">Like</button>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h1 class="meesage">This is some filler text, it can say anything we like</h1>
+                </div>
+            </div>
+            <div id="nicole" class="likesContainer">
+                <div class="row1">
+                    <h1 class="user">Nicole K</h1>
+                    <h2 class="likes"><span class="likesNumber">12</span> like(s)</h2>
+                    <div class="likeBtnContainer">
+                        <button type="button" class="likeBtn" onclick="addLike('nicole')">Like</button>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h1 class="meesage">This is some filler text, it can say anything we like</h1>
+                </div>
+            </div>
+            <div id="jim" class="likesContainer">
+                <div class="row1">
+                    <h1 class="user">Jim R</h1>
+                    <h2 class="likes"><span class="likesNumber">9</span> like(s)</h2>
+                    <div class="likeBtnContainer">
+                        <button type="button" class="likeBtn" onclick="addLike('jim')">Like</button>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h1 class="meesage">This is some filler text, it can say anything we like</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

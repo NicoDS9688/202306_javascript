@@ -1,0 +1,103 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+#bar {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    background-color: black;
+    width: 80%;
+    height: 80px;
+}
+
+.barTitle {
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    margin-left: 15px;
+}
+
+.pageTitle {
+    text-align: center;
+
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userAvatar {
+    height: 250px;
+    padding: 15px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.userPic {
+    width: 100px;
+    height: 100px;
+}
+
+.userPic, .link, .userName {
+    margin-top: 25px;
+}
+
+.link {
+    font-size: large;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.likesContainer {
+    width: 600px;
+    height: 200px;
+    border: 4px solid black;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.user {
+    font-size: 30px;
+    font-weight: l;
+}
+
+.likes {
+    padding-left: 90px;
+}
+
+.row2 {
+    padding-left: 25px;
+    font-size: 12px;
+    align-items: center;
+}
+
+
+
+.likeBtn {
+    background-color: #ffd966;
+    box-shadow: 5px 5px black;
+    color: black;
+    padding: 1px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+}
