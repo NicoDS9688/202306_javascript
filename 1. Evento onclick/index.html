@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Dojonary</title>
 </head>
+
 <body>
-    
+    <div id="searchBar">
+        <h1 class="searchBarTitle">Dojonary</h1>
+        <form>
+            <label for="search"></label>
+            <input type="search" id="search" name="search" placeholder="Search">
+        </form>
+        <button type="button" id="loginBtn" onclick="logOut()">Login</button>
+    </div>
+    <div id="mainPage">
+        <div id="column1">
+            <div class="definition">
+                <div class="pronunAndLikes">
+                    <div class="pronunAndLikesContainer">
+                        <div class="pronunciation">
+                            <h3 class="singular">ninja</h3>
+                            <h3 class="fonic">noun</h3>
+                            <h3 class="plural">Plural: <i>ninjas</i></h3>
+                            <button type="button" class="likesBtn" onclick="likesClick()"><span class="numberLikes">13</span> Likes</button>
+                        </div>
+                        <div class="definition">A practioner skilled in the <ins>Japanese</ins> art of
+                            <ins>Ninjutsu</ins></div>
+                    </div>
+                </div>
+            </div>
+            <div class="definition">
+                <div class="pronunAndLikes">
+                    <div class="pronunAndLikesContainer">
+                        <div class="pronunciation">
+                            <h3 class="singular">ninja</h3>
+                            <h3 class="fonic">noun</h3>
+                            <h3 class="plural">Plural: <i>ninjas</i></h3>
+                            <button type="button" class="likesBtn" onclick="likesClick()"><span class="numberLikes">37</span> Likes</button>
+                        </div>
+                        <div class="definition">A <ins>programmer</ins> who breaks down problems with
+                            <ins>zen</ins>-like focus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="column2">
+            <div class="addWord">
+                <div class="message">Dojonary is <br> defined by <strong>YOU</strong></div>
+                <div class="removeAddDefBtnContainer">
+                    <button type="button" class="addDefinitionBtn" onclick="removeAddDefBtn()">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
+
 </html>

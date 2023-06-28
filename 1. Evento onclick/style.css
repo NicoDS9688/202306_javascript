@@ -1,0 +1,128 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#searchBar {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    background-color: #cccccc;
+    width: 80%;
+    height: 80px;
+}
+
+.searchBarTitle {
+    margin-left: 15px;
+    font-size: 50px;
+}
+
+#search {
+    width: 350px;
+    height: 30px;
+    border: 3px solid black;
+    font-size: 15px;
+}
+
+#loginBtn {
+    background-color: #2b78e4;
+    box-shadow: 3px 3px black;
+    color: white;
+    padding: 4px 20px;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+#mainPage {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pronunAndLikesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pronunAndLikes {
+    padding: 15px;
+    margin-top: 20px;
+    width: 600px;
+    border: 3px solid black;
+}
+
+.pronunciation {
+    text-align: center;
+  }
+  
+.pronunciation h3 {
+    margin: 0;
+  }
+
+.singular {
+    font-size: 40px;
+}
+
+.fonic {
+    font-style: oblique;
+}
+
+.likesBtn {
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    color: black;
+    padding: 4px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+#column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.addWord {
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 250px;
+    height: 140px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.removeAddDefBtnContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.addDefinitionBtn {
+    width: 150px;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+    color: black;
+    padding: 4px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
