@@ -1,0 +1,320 @@
+* {
+    font-family: cursive;
+}
+
+#navBar {
+  background-color: black;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navTitle {
+    align-items: center;
+    display: inline-flex;
+    margin-left: 500px;
+    color: white;
+}
+
+.navLinks {
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.navLinks li {
+    margin-right: 20px;
+}
+
+.navTitles {
+    color: white;
+    text-decoration: none;
+}
+
+#mainWindow {
+    display: inline-flex;
+}
+
+.signOutBtn {
+    font-size: 15px;
+    background-color: #17a2b8;
+    color: #e2f3f6;
+    box-shadow: 4px 4px black;
+    padding: 5px;
+    border-width: 3px;
+    margin-left: 360px;
+}
+
+#column1 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#column2 {
+    margin-top: 70px;
+    display: flex;
+}
+
+#contentContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.topUserCardContainer {
+    margin-top: 25px;
+    width: 500px;
+    margin-left: 500px;
+    border: 4px solid #17a2b8;
+    font-family: cursive;
+}
+
+.topUserCard {
+    height: 100px;
+    width: auto;
+    background-color: #17a2b8;
+    
+}
+
+.profilePicContainer {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #6fbbc7;
+    border-radius: 60px;
+    padding: 4px;
+    background-color: white;
+    position: absolute;
+    top: 140px;
+    left: 530px;
+}
+
+.profilePic {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+
+.name {
+    margin-top: 40px;
+}
+
+.mapMarker {
+    height: 25px;
+    margin-right: 15px;
+}
+
+.gear {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.location {
+    display: inline-flex;
+    align-items: center;
+    margin-top: -30px;
+}
+
+footer {
+    display: inline-flex;
+    align-items: center;
+}
+
+.editProfile {
+    color: blue;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.userProfile {
+    width: 480px;
+    padding-left: 20px;
+    border: 4px solid #6fbbc7;
+    margin-left: 500px;
+    border-top-color: #17a2b8;
+    display: flex;
+    flex-direction: column;
+}
+
+#sideNav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.topConnec1 {
+    background-color: #333333;
+    color: white;
+    font-size: 10px;
+    display: inline-flex;
+    width: 303px;
+    margin-right: 100px;
+    border: 4px solid #333333;
+}
+
+.topConnec2 {
+    color: white;
+    background-color: #333333;
+    width: 303px;
+    font-size: 10px;
+    display: inline-flex;
+    margin-right: 100px;
+    margin-top: 30px;
+    border: 4px solid #333333;
+}
+
+
+.bubbleNumber1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    margin-left: 10px;
+    color: #333333;
+}
+
+.bubbleNumber2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    margin-left: 10px;
+    color: #333333;
+}
+
+.titles1 {
+    margin-left: 30px;
+}
+
+
+.userRequestsContainer {
+    width: 303px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid #aaaaaa;
+    border-top: none; 
+}
+
+.userRequest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 297px;
+}
+
+.friendPic {
+    height: 35px;
+    width: 35px;
+    border-radius: 60px;
+    border: 3px solid #333333;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.acceptBtn {
+    padding: 15px;
+    background-image: url("../img/accept-circle.png");
+    background-size: contain;
+    border-radius: 60px;
+    border: none;
+}
+
+.denyBtn {
+    padding: 15px;
+    background-image: url("../img/close-circle.png");
+    background-size: contain;
+    border-radius: 60px;
+    border: none;
+    margin-right: 10px;
+}
+
+.requestBtns {
+    margin-left: auto;
+}
+
+.icons1 {
+    height: 30px;
+    width: 30px;
+    margin-left: 100px;
+}
+
+.icons2 {
+    height: 30px;
+    width: 30px; 
+}
+
+#connections {
+    margin-top: 10px;
+    height: 350px;
+    width: 303px;
+}
+
+.friend {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.userFriends {
+    width: 303px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #aaaaaa;
+    border-top: none;
+}
+
+.expand {
+    padding: 10px;
+    border: 4px solid #aaaaaa;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+}
+
+#education {
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.topEducation {
+    width: 500px;
+    padding: 2px;
+    background-color: #333333;
+    color: white;
+    font-size: 10px;
+}
+
+.mainEducation {
+    width: 496px;
+    border: 4px solid #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+}
+
+.info1, .info2, .info3 {
+    margin-left: 20px;
+}
+
+.info2 {
+    margin-top: -8px;
+    color: #aaaaaa;
+}
+
+.info3 {
+    margin-top: 10px;
+}

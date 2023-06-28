@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div id="navBar">
+        <h1 class="navTitle">Profile</h1>
+        <ul class="navLinks">
+            <li><a href="#" class="navTitles">Home</a></li>
+            <li><a href="#" class="navTitles">My Profile</a></li>
+            <li><a href="#" class="navTitles">Find Connections</a></li>
+            <li><button class="signOutBtn">Sign out</button></li>
+        </ul>
+    </div>
+    <div id="mainWindow">
+        <div id="column1">
+            <div id="userCard">
+                <div class="topUserCardContainer">
+                    <header class="topUserCard"></header>
+                    <div class="profilePicContainer">
+                        <img class="profilePic" src="img/jane-m.jpg" alt="Profile picture">
+                    </div>
+                </div>
+                <main class="userProfile">
+                    <h1 class="name">Jane Doe</h1>
+                    <div class="location">
+                        <img class="mapMarker" src="img/map-marker.png" alt="Map Marker">
+                        <h3 class="city">Seattle</h3>
+                    </div>
+                    <div>
+                        Developer | Engineer | Problem Solver
+                        <br>
+                        Master of shadows and the Internet!
+                    </div>
+                    <footer>
+                        <img class="gear" src="img/gear.png" alt="Settings Icon">
+                        <h4 class="editProfile" onclick="editProfile()">edit profile</h4>
+                    </footer>
+                </main>
+            </div>
+            <div id="education">
+                <div class="topEducation">
+                    <h1 class="titles1">Education</h1>
+                </div>
+                <div class="mainEducation">
+                    <h2 class="info1">Coding Dojo - Full Stack Bootcamp</h2>
+                    <h3 class="info2">Dec 2019 - Mar 2020</h3>
+                    <h3 class="info3">Triple black belt in Python, MERN, and C#...</h3>
+                </div>
+            </div>
+        </div>
+        <div id="column2">
+            <div id="sideNav">
+                <div class="connectionReq">
+                    <div class="topConnec1">
+                        <h1 class="bubbleNumber1">2</h1>
+                        <h1 class="titles1">Connection Requests</h1>
+                    </div>
+                    <div class="userRequestsContainer">
+                        <div class="userRequest">
+                            <img class="friendPic" src="img/todd-s.jpg" alt="Todd's Picture">
+                            <h3>Todd E</h3>
+                            <div class="requestBtns">
+                                <button class="acceptBtn" onclick="acceptRequest()"></button>
+                                <button class="denyBtn" onclick="denyRequest()"></button>
+                            </div>
+                        </div>
+                        <div class="userRequest">
+                            <img class="friendPic" src="img/phil-s.jpg" alt="Phil's Picture">
+                            <h3>Phil S</h3>
+                            <div class="requestBtns">
+                                <button class="acceptBtn" onclick="acceptRequest()"></button>
+                                <button class="denyBtn" onclick="denyRequest()"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="connections">
+                    <div class="topConnec2">
+                        <h1 class="bubbleNumber2">498</h1>
+                        <h1 class="titles1">Your Connections</h1>
+                    </div>
+                    <div class="userFriends">
+                        <div class="friend">
+                            <img class="friendPic" src="img/adrien-s.jpg" alt="Adrien's Picture">
+                            <h3>Adrien D</h3>
+                        </div>
+                        <div class="friend">
+                            <img class="friendPic" src="img/anne-s.jpg" alt="Anne's Picture">
+                            <h3>Anne J</h3>
+                        </div>
+                        <div class="friend">
+                            <img class="friendPic" src="img/alayne-s.jpg" alt="Alayne's Picture">
+                            <h3>Alayne T</h3>
+                        </div>
+                        <div class="friend">
+                            <img class="friendPic" src="img/arry-s.jpg" alt="Arry's Picture">
+                            <h3>Arry Y</h3>
+                        </div>
+                        <div class="expand">
+                            <a href="#" class="expandLink">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
