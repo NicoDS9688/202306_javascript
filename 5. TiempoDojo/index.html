@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="mainPage">
+        <header>
+            <div id="navBar">
+                <h1 class="navTitle">DojoWeather</h1>
+                <ul class="navLinks">
+                    <li><a href="#" class="navTitles" onclick="loadingAlert()">Burbank</a></li>
+                    <li><a href="#" class="navTitles" onclick="loadingAlert()">Chicago</a></li>
+                    <li><a href="#" class="navTitles" onclick="loadingAlert()">Dallas</a></li>
+                </ul>
+            </div>
+        </header>
+        <hr>
+        <div class="top">
+            <div class="cityContainer">
+                <h2 class="city">San Jose</h2>
+            </div>
+            <form>
+                <label>show temperature in:</label>
+                <select id="units">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select>
+            </form>
+        </div>
+        <hr style="width: 770px">
+        <div class="row">
+            <div class="dayWeather">
+                <h3 class="day">Today</h3>
+                <div class="imgContainer">
+                    <img class="img" src="img/some_rain.png" alt="some rain">
+                </div>
+                <h4 class="weather">some rain</h4>
+                <div class="temperature">
+                    <h3 class="blue"><span class="number" dataCelsius="24">24</span>°</>
+                    <h3 class="red"><span class="number" dataCelsius="18">18</span>°</h3>
+                </div>
+            </div>
+            <div class="dayWeather">
+                <h3 class="day">Tomorrow</h3>
+                <div class="imgContainer">
+                    <img class="img" src="img/some_sun.png" alt="some sun">
+                </div>
+                <h4 class="weather">some sun</h4>
+                <div class="temperature">
+                    <h3 class="blue"><span class="number" dataCelsius="27">27</span>°</h3>
+                    <h3 class="red"><span class="number" dataCelsius="19">19</span>°</h3>
+                </div>
+            </div>
+            <div class="dayWeather">
+                <h3 class="day">Friday</h3>
+                <div class="imgContainer">
+                    <img class="img" src="img/some_clouds.png" alt="some clouds">
+                </div>
+                <h4 class="weather">some clouds</h4>
+                <div class="temperature">
+                    <h3 class="blue"><span class="number" dataCelsius="21">21</span>°</h3>
+                    <h3 class="red"><span class="number" dataCelsius="16">16</span>°</h3>
+                </div>
+            </div>
+            <div class="dayWeather">
+                <h3 class="day">Saturday</h3>
+                <div class="imgContainer">
+                    <img class="img" src="img/some_rain.png" alt="some rain">
+                </div>
+                <h4 class="weather">some rain</h4>
+                <div class="temperature">
+                    <h3 class="blue"><span class="number" dataCelsius="26">26</span>°</h3>
+                    <h3 class="red"><span class="number" dataCelsius="21">21</span>°</h3>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="cookiesContainer">
+                <img class="cookiePic" src="img/cookie.png" alt="cookie picture">
+                <div class="text">
+                    <h3>Stop! Cookie Time</h3>
+                    <p>We use cookies (sadly no the edible ones) to personaliza content and ads, to provide social media features and to analyze our traffic. <a href="url">Read More...</a></p>
+                </div>
+                <div class="btnContainer">
+                    <button class="acceptBtn" onclick="removeWindow()">I Accept</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
